@@ -49,7 +49,7 @@ export class RecipesService {
       preparacion: 20,
       coccion: 40,
       imagen:
-        'https://images.unsplash.com/photo-1558036117-0b87d8a2346c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1601000938365-f182c5ec2f77?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       instrucciones: [
         'Precalienta el horno.',
         'Prepara las manzanas.',
@@ -77,7 +77,7 @@ export class RecipesService {
       preparacion: 10,
       coccion: 20,
       imagen:
-        'https://images.unsplash.com/photo-1596911358191-f7d2cf27c3f5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1629978448078-c94a0ab6500f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       instrucciones: [
         'Pica los ingredientes.',
         'Sofríe cebolla y ajo.',
@@ -106,7 +106,7 @@ export class RecipesService {
       preparacion: 15,
       coccion: 30,
       imagen:
-        'https://images.unsplash.com/photo-1578916171721-0b6abefb203c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1697155406127-76096502d69d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       instrucciones: [
         'Corta el pollo.',
         'Sofríe cebolla y ajo.',
@@ -135,7 +135,7 @@ export class RecipesService {
       preparacion: 10,
       coccion: 10,
       imagen:
-        'https://images.unsplash.com/photo-1555949963-aa79dcee9817?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://sabor.eluniverso.com/wp-content/uploads/2023/10/shutterstock_1916171950-scaled.jpg',
       instrucciones: [
         'Mezcla los ingredientes secos.',
         'Añade huevos y leche.',
@@ -164,7 +164,7 @@ export class RecipesService {
       preparacion: 10,
       coccion: 0,
       imagen:
-        'https://images.unsplash.com/photo-1598514982636-d736df84278e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://danzadefogones.com/wp-content/uploads/2023/11/guacamole-casero.jpg',
       instrucciones: [
         'Pela y machaca los aguacates.',
         'Añade tomate, cebolla y cilantro.',
@@ -194,7 +194,7 @@ export class RecipesService {
       preparacion: 10,
       coccion: 15,
       imagen:
-        'https://images.unsplash.com/photo-1592906208288-39f3f1b18b59?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://www.budgetbytes.com/wp-content/uploads/2022/01/Shrimp-Alfredo-Pasta-bowl2-500x500.jpg',
       instrucciones: [
         'Cocina la pasta.',
         'Prepara la salsa con mantequilla, crema y queso.',
@@ -222,7 +222,7 @@ export class RecipesService {
       preparacion: 5,
       coccion: 0,
       imagen:
-        'https://images.unsplash.com/photo-1598514982636-d736df84278e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://www.pequerecetas.com/wp-content/uploads/2021/04/batido-de-fresa-casero.jpeg',
       instrucciones: [
         'Lava y corta las fresas.',
         'Coloca las fresas, la leche y el yogur en una licuadora.',
