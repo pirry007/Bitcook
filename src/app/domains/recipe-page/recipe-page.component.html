@@ -9,15 +9,15 @@
     <p>{{recipe()?.intro}}</p>
 
     <div class="preparation-time">
-      <h3>Preparation time</h3>
+      <h3>Tiempo de preaparación</h3>
       <ul>
-        <li>Preparation: {{recipe()?.preparacion}}</li>
-        <li>Cooking: {{recipe()?.coccion}}</li>
-        <li>Total: {{recipe()?.tiempoTotal}}</li>
+        <li>Preparation: {{recipe()?.preparacion}} Minutes</li>
+        <li>Cooking: {{recipe()?.coccion}} Minutes</li>
+        <li>Total: {{recipe()?.tiempoTotal}} Minutes</li>
       </ul>
     </div>
 
-    <h3>Instructions</h3>
+    <h3>Instrucciones</h3>
 
     <ol>
       @for(instruccion of recipe()?.instrucciones; track instruccion){
@@ -27,32 +27,32 @@
   </main>
 
   <aside>
-    <h3>Ingredients</h3>
+    <h3>Ingredientes</h3>
 
     <ul>
       @for(ingrediente of recipe()?.ingredientes; track ingrediente){
         <li>{{ingrediente}}</li>
       }
     </ul>
-    <h3>Nutrition</h3>
+    <h3>Valores Nutricionales</h3>
 
     <table>
       <tbody>
         <tr>
           <td>Calories</td>
-          <td class="color-cell" id="Calories">{{recipe()?.valoresNutricionales?.calorias}}</td>
+          <td class="color-cell" id="Calories">{{recipe()?.valoresNutricionales?.calorias}}g</td>
         </tr>
         <tr>
           <td>Carbs</td>
-          <td class="color-cell">{{recipe()?.valoresNutricionales?.carbohidratos}}</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.carbohidratos}}g</td>
         </tr>
         <tr>
           <td>protein</td>
-          <td class="color-cell">{{recipe()?.valoresNutricionales?.proteinas}}</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.proteinas}}g</td>
         </tr>
         <tr>
           <td>Fat</td>
-          <td class="color-cell">{{recipe()?.valoresNutricionales?.grasas}}</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.grasas}}g</td>
         </tr>
       </tbody>
     </table>
