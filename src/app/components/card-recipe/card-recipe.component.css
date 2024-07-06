@@ -1,0 +1,26 @@
+div.recipe {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+div.recipe:hover {
+    transform: scale(1.1);
+}
+
+
+div.recipe a {
+    text-decoration: none;
+}
+
+div.recipe img {
+    height: 248px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.recipe ul {
+    color: black;
+}
