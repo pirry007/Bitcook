@@ -227,7 +227,7 @@ export class RecipesService {
     }
   }
 
-  createRecipe(recipe: Recipe) {
+  createRecipe(recipe: any) {
     this.recipes.update(function (state) {
       return [...state, recipe];
     });
