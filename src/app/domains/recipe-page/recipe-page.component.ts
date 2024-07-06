@@ -17,8 +17,10 @@ export class RecipePageComponent {
   recipe = signal<null | Recipe>(null);
 
   ngOnInit(){
+    console.log(this.recipe())
     if (this.id !== undefined){
-      this.recipe.set(this.recipesService.getOnerecipeById(this.id))
+      this.recipe.set(this.recipesService.getOnerecipeById(Number(this.id)))
+      console.log(this.recipe())
     }
   }
 }

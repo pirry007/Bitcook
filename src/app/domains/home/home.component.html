@@ -7,7 +7,7 @@
 
   <div class="grid-container">
     @for(recipe of recipes(); track recipe) {
-      <a [routerLink]="['/detail/',recipe.id]">
+      <a [routerLink]="['recipe-page',recipe.id]">
         <app-card-recipe
           [titulo]="recipe.titulo"
           [tiempoTotal]="recipe.tiempoTotal"

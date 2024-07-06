@@ -1,0 +1,146 @@
+h1,h2,h3 {
+    color: #7E4333;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+div.grid-container {
+    justify-content: center;
+    margin: 40px auto 60px auto;
+    max-width: 1100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(4,auto);
+    margin-top: 40px;
+}
+
+
+main {
+    padding: 20px;
+    grid-area: 1/1/6/4;
+    background-color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+aside {
+    grid-area: 1/4/3/4;
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+    transition: 0.3s;
+}
+section {
+    grid-area: 3/4/5/4;
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+main div.recipeimage {
+    height: 287px;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 5px;
+}
+main div.recipeimage img {
+    border-radius: 5px;
+    height: 278px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+main h1 {
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+main ol {
+    padding-left: 20px;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+main div.preparation-time {
+    background-color: #FFF7FC;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main div.preparation-time h3 {
+    margin-top: 0;
+}
+
+
+aside ul {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+aside table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+aside table tr td {
+    border-spacing: 8px;
+    border-bottom: solid #7E4333 1px;
+    padding: 8px 0;
+}
+
+td.color-cell {
+    font-weight: bold;
+    color: #7E4333;
+    text-align: right;
+    padding-right: 20px;
+}
+
+td#Calories {
+padding-right: 0;
+}
+
+section div.more-recipes-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+section div.more-recipes-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+section div a img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+section a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+section a:hover {
+    background-color: #7cac8e;
+}
+
+section p {
+    font-size: small;
+}
