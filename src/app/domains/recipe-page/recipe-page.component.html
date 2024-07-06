@@ -1,0 +1,101 @@
+<app-header/>
+
+<div class="grid-container">
+  <main>
+    <div class="recipeimage">
+      <img [src]="recipe()?.imagen" alt="avocado toast" />
+    </div>
+    <h1>{{recipe()?.titulo}}</h1>
+    <p>{{recipe()?.intro}}</p>
+
+    <div class="preparation-time">
+      <h3>Preparation time</h3>
+      <ul>
+        <li>Preparation: {{recipe()?.preparacion}}</li>
+        <li>Cooking: {{recipe()?.coccion}}</li>
+        <li>Total: {{recipe()?.tiempoTotal}}</li>
+      </ul>
+    </div>
+
+    <h3>Instructions</h3>
+
+    <ol>
+      @for(instruccion of recipe()?.instrucciones; track instruccion){
+        <li>{{instruccion}}</li>
+      }
+    </ol>
+  </main>
+
+  <aside>
+    <h3>Ingredients</h3>
+
+    <ul>
+      @for(ingrediente of recipe()?.ingredientes; track ingrediente){
+        <li>{{ingrediente}}</li>
+      }
+    </ul>
+    <h3>Nutrition</h3>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>Calories</td>
+          <td class="color-cell" id="Calories">{{recipe()?.valoresNutricionales?.calorias}}</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.carbohidratos}}</td>
+        </tr>
+        <tr>
+          <td>protein</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.proteinas}}</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td class="color-cell">{{recipe()?.valoresNutricionales?.grasas}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </aside>
+
+  <section>
+    <h3>More recipes</h3>
+    <div class="more-recipes-flex">
+      <a href="./Tomato.html">
+        <div class="more-recipes-img">
+          <img
+            src="./images/tomato-and-basil-bruschetta-75254-1.jpeg"
+            alt="tomato and basilbruschetta"
+          />
+        </div>
+        <div class="recipe-description">
+          <h4>Simple Tomato and Basil Bruschetta</h4>
+          <p>classic appetizer that's bursting with fresh flavors</p>
+        </div>
+      </a>
+
+      <a href="./Herb-chicken.html">
+        <div class="more-recipes-img">
+          <img src="./images/herb.chicken.webp" alt="herb chicken" />
+        </div>
+        <div class="recipe-description">
+          <h4>Lemon Herb Grilled Chicken</h4>
+          <p>perfect for a relaxed evening gathering with friends or family.</p>
+        </div>
+      </a>
+
+      <a href="./Pasta-Aglio.html">
+        <div class="more-recipes-img">
+          <img
+            src="./images/spaghetti-aglio-e-olio-recipe.jpg"
+            alt="spaghetti aglio"
+          />
+        </div>
+        <div class="recipe-description">
+          <h4>Simple Pasta Aglio e Olio</h4>
+          <p>classic Italian dish known for its simplicity and bold flavors</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
