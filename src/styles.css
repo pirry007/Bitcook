@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+/* :root {
+    color-scheme: light dark;
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+body {
+    --text-color: #222;
+    --background-color: #F3E5D8;
+  }
+  
+  body.dark-mode {
+    --text-color: #fff;
+    --background-color: #222;
+  }
+
+body {
+    background: var(--background-color);
+    transition: 0.3s;
+}
+
+h1,
+p,
+li,
+h3,
+h2,
+h1,
+tr {
+  color: var(--text-color);
+}
+
+h1,h2,h3,h4 {
+    font-family: "DM Serif Display";
+    transition: 0.3s;
+}
+
+h2,h3 {
+    color: #7E4333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+}
+p,li,td {
+    font-family: "DM Sans";
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;
+}

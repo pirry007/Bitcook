@@ -9,8 +9,8 @@ import { Component, Input } from '@angular/core';
 })
 export class CardRecipeComponent {
   @Input() titulo: string = '';
-  @Input() tiempoTotal: string = '';
-  @Input() preparacion: string = '';
-  @Input() coccion: string = '';
+  @Input() tiempoTotal: number = 0;
+  @Input() preparacion: number = 0;
+  @Input() coccion: number = 0;
   @Input() imagen: string = '';
 }
